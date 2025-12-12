@@ -142,8 +142,30 @@ Fixed element
     
    
     
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 729.34 440.32"><defs>
+    <svg class="shortmap" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 729.34 440.32"><defs>
         
+<style>
+
+  @media (max-width: 600px) {
+    .shortmap {
+      
+      width: auto;
+      height: 100vh;
+      overflow-x: hidden;
+      /* Puedes usar clip-path para recortar la vista */
+      clip-path: inset(0 50% 0 0);
+      
+    }
+  }
+</style>
+
+
+
+
+
+
+
+
         <style>
         .cls-1{opacity:0.1;fill:#C1E8E1;}
 	    .cls-2{opacity:0.1;fill:#C1E8E1;}

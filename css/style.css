@@ -144,9 +144,6 @@ h2{
         font-size: 25px;  
     }
 
-    
-
-    
 
      
 }
@@ -157,13 +154,7 @@ h2{
     height:230vh;
     }
 
-.secondframe{
-    background-size: contain;
 }
-}
-
-
-
 
 
 
@@ -330,4 +321,6 @@ path{
     z-index: 2;
     pointer-events:none; 
 }
+
+
 
