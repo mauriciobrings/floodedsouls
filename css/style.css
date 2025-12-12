@@ -86,7 +86,7 @@ h2{
 @media(max-width:600px){
    
     .first{
-    height:255vh;
+    height:300vh;
     
     }
   
@@ -94,7 +94,8 @@ h2{
         padding-top: 30vh;
         padding-left: 50px;
         padding-bottom: 10vh;
-        font-size:90px;
+        font-size:80px;
+        line-height: 0.8;
         
     }
 
