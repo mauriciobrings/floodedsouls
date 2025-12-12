@@ -1,16 +1,12 @@
 @font-face {
     font-family: 'Balto';
-    src: url('Balto-Bold.woff2') format('woff2'),
-        url('Balto-Bold.woff') format('woff');
-    font-weight: bold;
+    src: url('../font/fonnts.com-Balto_Medium.woff') format('woff');
     font-style: normal;
     font-display: swap;
 }
 @font-face {
-    font-family: 'Balto';
-    src: url('Balto-Medium.woff2') format('woff2'),
-        url('Balto-Medium.woff') format('woff');
-    font-weight: 500,600;
+    font-family: 'Baltobold';
+    src: url('../font/Balto_Bold.woff') format('woff');
     font-style: normal;
     font-display: swap;
 }
@@ -39,8 +35,7 @@ p{
 }
 
 h1{
-font-family: 'Balto';
-font-weight: 600;
+font-family: 'Baltobold';
 font-size:100px;
 padding-top: 45vh;
 padding-bottom: 10vh;
