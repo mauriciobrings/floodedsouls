@@ -42,7 +42,14 @@
   <script defer="" src="https://static.cloudflareinsights.com/beacon.min.js"
   data-cf-beacon="{&quot;rayId&quot;:&quot;6615e6790cc63742&quot;,&quot;
     version&quot;:&quot;2021.5.2&quot;,&quot;r&quot;:1,&quot;token&quot;
-    :&quot;f0aa520dc035432cb9fe5438c4f03b8b&quot;,&quot;si&quot;:10}"></script>
+    :&quot;f0aa520dc035432cb9fe5438c4f03b8b&quot;,&quot;si&quot;:10}">
+  
+
+
+  </script>
+
+
+
 
 
 
@@ -160,6 +167,23 @@ Fixed element
     }
   }
 </style>
+
+<script>
+  // Función para actualizar el viewBox basado en el tamaño de la ventana
+  function actualizarViewBox() {
+    const svg = document.querySelector('.shortmap');
+    if (window.innerWidth <= 600) {
+      svg.setAttribute('viewBox', '80 0 729.34 440.32'); // vista más reducida
+    } else {
+      svg.setAttribute('viewBox', '0 0 729.34 440.32'); // vista original
+    }
+  }
+
+  // Ejecutar al cargar
+  window.addEventListener('load', actualizarViewBox);
+  // Ejecutar al cambiar tamaño de la ventana
+  window.addEventListener('resize', actualizarViewBox);
+</script>
 
 
 
