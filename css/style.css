@@ -82,6 +82,9 @@ h2{
     display: none;
 }
 
+.flecha{
+    display: none;
+}
 
 @media(max-width:600px){
    
@@ -96,7 +99,7 @@ h2{
         padding-right: 40px;
         padding-bottom: 10vh;
         font-size:80px;
-        line-height: 0.9;
+        
         
     }
 
@@ -124,6 +127,13 @@ h2{
         display: inherit;
         padding-left: 50px;
        padding-right: 50px;
+        
+    }
+
+    .flecha{
+        display:unset;
+        display: inherit;
+        color: #68F2C2;
         
     }
 
