@@ -138,16 +138,12 @@ h2{
     .flecha{
         
         display: inherit;
-        color: #68F2C2;
         font-family: 'Balto';
         padding-left: 0px;
         font-size: 25px;  
     }
 
-    .b{
-        display: unset;
-        color: #68F2C2;
-    }
+    
 
     
 
