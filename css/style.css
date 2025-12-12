@@ -17,13 +17,14 @@
 
 }
 
-.html{
+html{
     overflow-x: hidden;
 }
 
 body{
     background-color: white;
     overflow-x: hidden;
+    overflow: clip;
 }
 
 /*div{
