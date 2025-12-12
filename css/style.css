@@ -89,7 +89,8 @@ h2{
 @media(max-width:600px){
    
     .first{
-    height:300vh;
+    height:280vh;
+    background-size: contain;
     
     }
   
