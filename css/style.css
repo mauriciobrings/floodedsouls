@@ -138,6 +138,7 @@ h2{
     .flecha{
         
         display: unset;
+        display:inherit;
         font-family: 'Balto';
         text-align: center;
         
