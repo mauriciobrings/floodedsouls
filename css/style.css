@@ -1,0 +1,311 @@
+@font-face {
+    font-family: 'Balto';
+    src: url('Balto-Bold.woff2') format('woff2'),
+        url('Balto-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Balto';
+    src: url('Balto-Medium.woff2') format('woff2'),
+        url('Balto-Medium.woff') format('woff');
+    font-weight: 500,600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'hatton';
+    src: url('../font/Hatton_light.woff') format('woff');
+
+}
+
+
+body{
+    background-color: white;
+}
+
+/*div{
+    border:2px solid black;
+}*/
+
+p{
+    font-family: balto;
+    font-weight: 500;
+    color: white;
+    font-size:20px;
+
+}
+
+h1{
+font-family: 'Balto';
+font-weight: 600;
+font-size:100px;
+padding-top: 45vh;
+padding-bottom: 10vh;
+color:white;
+}
+
+h2{
+    font-family: balto;
+    font-weight: 500;
+    color: white;
+    font-size: 25px;
+    letter-spacing: 0.2px;
+}
+
+
+
+.first{
+    height:200vh;
+    background-image: url(../images/2_Mesa\ de\ trabajo\ 1.jpg);
+    background-size:cover;
+    background-repeat: no-repeat; 
+  
+}
+
+.what{
+    position: absolute;
+    z-index: 2;
+    pointer-events: none;
+    
+}
+
+.titlewhat{
+   color:#68F2C2;
+   margin-left: 50vw;
+   margin-top: 65vh;
+   padding-top: 0px;
+   font-size:70px;
+   font-family: 'balto';
+   font-weight: 600;
+    
+}
+
+.rotate{
+    display: none;
+}
+
+
+@media(max-width:600px){
+   
+    .first{
+    height:255vh;
+    
+    }
+  
+    h1{
+        padding-top: 40vh;
+        padding-left: 50px;
+        padding-bottom: 0px;
+        
+    }
+
+    h2{
+        
+        padding-left: 50px;
+    }
+
+    p{
+       padding-left: 50px;
+       padding-right: 50px;
+    }
+
+    .titlewhat{
+    display: none;
+   
+        }
+
+.click{
+    display: none;
+}
+
+    .rotate{
+        display:unset;
+        display: inherit;
+        padding-left: 50px;
+       padding-right: 50px;
+        
+    }
+
+     
+}
+
+@media (min-width: 600px) and (max-width: 1400px){
+
+.first{
+    height:230vh;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+path{
+    transition:fill .5s;
+}
+
+
+#firstlayer path:hover{
+    fill:#167F6B;
+    cursor: pointer;
+}
+
+
+#secondlayer path:hover{
+    fill:#167F6B;
+    cursor: pointer;
+}
+
+
+#thirdlayer path:hover{
+    fill:#167F6B;
+    cursor: pointer;
+}
+
+#fourlayer path:hover{
+    fill:#167F6B;
+    cursor: pointer;
+}
+
+#fivelayer path:hover{
+    fill:#167F6B;
+    cursor: pointer;
+}
+
+#sixlayer path:hover{
+    fill:#167F6B;
+    cursor: pointer;
+}
+
+#sevenlayer path:hover{
+    fill:#167F6B;
+    cursor: pointer;
+}
+
+#eightlayer path:hover{
+    fill:#167F6B;
+    cursor: pointer;
+}
+
+#ninelayer path:hover{
+    fill:#167F6B;
+    cursor: pointer;
+}
+
+#tenlayer path:hover{
+    fill:#167F6B;
+    cursor: pointer;
+}
+
+#elevenlayer path:hover{
+    fill:#167F6B;
+    cursor: pointer;
+}
+
+#twelvelayer path:hover{
+    fill:#167F6B;
+    cursor: pointer;
+}
+
+#thirteenlayer path:hover{
+    fill:#167F6B;
+    cursor: pointer;
+}
+
+#fourteenlayer path:hover{
+    fill:#167F6B;
+    cursor: pointer;
+}
+
+#fifteenlayer path:hover{
+    fill:#167F6B;
+    cursor: pointer;
+}
+
+#sixteenlayer path:hover{
+    fill:#167F6B;
+    cursor: pointer;
+}
+
+#seventeenlayer path:hover{
+    fill:#167F6B;
+    cursor: pointer;
+}
+
+#eighteenlayer path:hover{
+    fill:#167F6B;
+    cursor: pointer;
+}
+
+#nineteenlayer path:hover{
+    fill:#167F6B;
+    cursor: pointer;
+}
+
+#twentylayer path:hover{
+    fill:#167F6B;
+    cursor: pointer;
+}
+
+#twentyonelayer path:hover{
+    fill:#167F6B;
+    cursor: pointer;
+}
+
+#twentytwolayer path:hover{
+    fill:#167F6B;
+    cursor: pointer;
+}
+
+#twentythreelayer path:hover{
+    fill:#167F6B;
+    cursor: pointer;
+}
+
+/*#twentyfourlayer path:hover{
+    fill:#167F6B;
+}*/
+
+#twentyfivelayer path:hover{
+    fill:#167F6B;
+    cursor: pointer;
+}
+
+#twentysixlayer path:hover{
+    fill:#167F6B;
+    cursor: pointer;
+}
+
+#twentysevenlayer path:hover{
+    fill:#167F6B;
+    cursor: pointer;
+}
+
+#twentyeightlayer path:hover{
+    fill:#167F6B;
+    cursor: pointer;
+}
+
+#road{
+    position:absolute;
+    z-index: 1;
+    pointer-events:none;
+}
+
+.audiobox{
+   position:absolute;
+    z-index: 2;
+    pointer-events:none; 
+}
+
