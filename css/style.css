@@ -157,6 +157,9 @@ h2{
     height:230vh;
     }
 
+.secondframe{
+    background-size: contain;
+}
 }
 
 
