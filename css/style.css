@@ -93,7 +93,8 @@ h2{
 @media(max-width:600px){
    
     .first{
-    height:310vh;
+    height:315vh;
+    background-image: url(../images/3_Mesa\ de\ trabajo\ 1.jpg);
     
     }
   
