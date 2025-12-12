@@ -27,7 +27,7 @@ body{
 }*/
 
 p{
-    font-family: balto;
+    font-family: 'balto';
     font-weight: 500;
     color: white;
     font-size:20px;
@@ -97,8 +97,8 @@ h2{
         padding-top: 30vh;
         padding-left: 50px;
         padding-right: 40px;
-        padding-bottom: 10vh;
-        font-size:80px;
+        
+        font-size:70px;
         
         
     }
@@ -118,9 +118,9 @@ h2{
    
         }
 
-.click{
+    .click{
     display: none;
-}
+    }
 
     .rotate{
         display:unset;
@@ -134,8 +134,9 @@ h2{
         display:unset;
         display: inherit;
         color: #68F2C2;
-        font-family:'baltobold';
+        font-family: 'Baltobold';
         font-size: 45px;
+        padding-bottom: 10vh;
         
         
     }
