@@ -91,9 +91,10 @@ h2{
     }
   
     h1{
-        padding-top: 40vh;
+        padding-top: 30vh;
         padding-left: 50px;
-        padding-bottom: 0px;
+        padding-bottom: 10vh;
+        font-size:90px;
         
     }
 
