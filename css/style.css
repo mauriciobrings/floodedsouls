@@ -134,7 +134,9 @@ h2{
         display:unset;
         display: inherit;
         color: #68F2C2;
-        font-size: 40px;
+        font-family:'baltobold';
+        font-size: 45px;
+        
         
     }
 
