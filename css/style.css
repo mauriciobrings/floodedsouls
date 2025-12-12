@@ -144,7 +144,7 @@ h2{
     }
 
     .b{
-        display: inherit;
+        display: unset;
         color: #68F2C2;
     }
 
