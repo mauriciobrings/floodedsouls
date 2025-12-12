@@ -134,7 +134,8 @@ h2{
         display:unset;
         display: inherit;
         color: #68F2C2;
-        text-align: center;
+        font-family: 'Balto';
+        text-align: right;
         font-size: 45px;
         
         
