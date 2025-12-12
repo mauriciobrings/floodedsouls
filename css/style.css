@@ -134,9 +134,9 @@ h2{
         display:unset;
         display: inherit;
         color: #68F2C2;
-        font-family: 'Baltobold';
+        text-align: center;
         font-size: 45px;
-        padding-bottom: 10vh;
+        
         
         
     }
