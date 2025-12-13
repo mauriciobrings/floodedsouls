@@ -58,7 +58,7 @@ h2{
 
 
 .first{
-    height:215vh;
+    height:225vh;
     background-image: url('../images/2_Mesa\ de\ trabajo\ 1.jpg');
     background-size:cover;
     background-repeat: no-repeat; 
@@ -95,7 +95,7 @@ h2{
 @media(max-width:600px){
    
     .first{
-    height:320vh;
+    height:325vh;
     background-image: url('../images/3-01-01.jpg');
     
     }
